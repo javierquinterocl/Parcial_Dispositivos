@@ -11,6 +11,7 @@ const colorList = <Color>[
   Colors.brown,
   Colors.grey,
   Colors.black,
+  Colors.white,
 ];
 
 class AppTheme {

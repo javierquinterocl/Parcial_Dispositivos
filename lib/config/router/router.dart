@@ -13,6 +13,21 @@ class Routers {
       descripcion: 'Pantalla de inicio',
       builder: (context) => const HomeScreen(),
     ),
+    AppRouter(
+      patch: '/form',
+      title: 'Form',
+      icon: Icons.list,
+      descripcion: 'Formulario',
+      builder: (context) => const FormScreen(),
+    ),
+    AppRouter(
+      patch: '/peticion',
+      title: 'Peticion',
+      icon: Icons.http,
+      descripcion: 'Api de Dragon Ball',
+      builder: (context) => const PeticionScreen(),
+    ),
+    
 
   ];
 
